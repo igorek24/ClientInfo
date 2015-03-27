@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color: #333;
+	text-shadow: 1px 1px 1px #666;
+}
+p.pred {
+	color: red;
+	text-decoration: blink;
+	font-size: large;
+}
+p.pgreen {
+	color: #090;
+	font-size: small;
+	text-align: center;
+}
+
+p.pblue {
+	color: #0085F6;
+	font-size: small;
+	text-align: center;
+}
+
+h1 {
+	color: #0085F6;
+}
+h2 {
+	color: #0085F6;
+	text-shadow: 1px 1px 1px #666;
+}
+#heather {
+	background: #0085F6;
+	height: 80px;
+	margin: 0;
+}
+#logo {
+	margin: 0;
+	background-image: url(../images/logo.png);
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	baseline-shift: baseline;
+	color: #FFF
+}
+body {
+	margin: 0;
+	/* [disabled]background-image: url(../images/bckgnd.jpg);
+*/
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-color: #fff;
+	font-family: lora, Verdana, Helvetica, Arial, sans-serif;
+}
+table, td, th {
+	text-align: center;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.center {
+	text-align: center;
+}
+.weathericon {
+	-moz-box-shadow: 3px 3px 4px #999;
+	-webkit-box-shadow: 3px 3px 4px #999;
+	box-shadow: 3px 3px 4px #999;
+	width: 85px;
+	height: 80px;
+	-webkit-border-radius: 5px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	overflow: hidden;
+	position: relative;
+	background-size: 100%
+}
+.note {
+	text-align: center;
+}
+.ClienInfoTabl {
+	margin: 0px;
+	padding: 0px;
+	width: 70%;
+	box-shadow: 10px 10px 5px #888888;
+	border: 1px solid #4c4c4c;
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+}.ClienInfoTabl table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.ClienInfoTabl tr:last-child td:last-child {
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+}
+.ClienInfoTabl table tr:first-child td:first-child {
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-left-radius:4px;
+	border-top-left-radius:4px;
+}
+.ClienInfoTabl table tr:first-child td:last-child {
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+}.ClienInfoTabl tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+}.ClienInfoTabl tr:hover td{
+	background-color: #EAF4FF;		
+
+}
+.ClienInfoTabl td{
+	vertical-align: middle;
+	background: -o-linear-gradient(bottom, #ffffff 5%, #d3e9ff 100%);
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #d3e9ff) );
+	background: -moz-linear-gradient( center top, #ffffff 5%, #d3e9ff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#d3e9ff");		background: -o-linear-gradient(top,#ffffff,d3e9ff);
+	background-color: #ffffff;
+	border: 1px solid #4c4c4c;
+	border-width: 0px 1px 1px 0px;
+	text-align: left;
+	padding: 3px;
+	font-size: 14px;
+	font-family: Helvetica;
+	font-weight: normal;
+	color: #000000;
+}.ClienInfoTabl tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.ClienInfoTabl tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.ClienInfoTabl tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.ClienInfoTabl tr:first-child td{
+	background: -o-linear-gradient(bottom, #0057af 5%, #007fff 100%);
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0057af), color-stop(1, #007fff) );
+	background: -moz-linear-gradient( center top, #0057af 5%, #007fff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057af", endColorstr="#007fff");		background: -o-linear-gradient(top,#0057af,007fff);
+	background-color: #0085F6;
+	border: 0px solid #4c4c4c;
+	text-align: center;
+	border-width: 0px 0px 1px 1px;
+	font-size: 14px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #ffffff;
+}
+.ClienInfoTabl tr:first-child:hover td{
+	background: -o-linear-gradient(bottom, #0057af 5%, #007fff 100%);
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0057af), color-stop(1, #007fff) );
+	background: -moz-linear-gradient( center top, #0057af 5%, #007fff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057af", endColorstr="#007fff");		background: -o-linear-gradient(top,#0057af,007fff);
+	background-color: #0085F6;
+}
+.ClienInfoTabl tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.ClienInfoTabl tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
